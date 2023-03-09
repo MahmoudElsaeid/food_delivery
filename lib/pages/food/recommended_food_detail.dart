@@ -157,7 +157,7 @@ class RecommendedFoodDetail extends StatelessWidget {
                     ),
                   ),
                   BigText(
-                    text: '\$ ${product.price!}  X  ${controller.inCartItems} ',
+                    text: 'EGP ${product.price!}  X  ${controller.inCartItems} ',
                     color: AppColors.mainBlackColor,
                     size: Dimensions.font26,
                   ),
@@ -210,7 +210,7 @@ class RecommendedFoodDetail extends StatelessWidget {
                     },
                     child: Container(
                       padding: EdgeInsets.all(Dimensions.height20),
-                      child: BigText(text: '\$ ${product.price!} | Add to card', color: Colors.white,),
+                      child: BigText(text: 'EGP ${product.price!} | Add to card', color: Colors.white,),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(Dimensions.radius20,),
                         color: AppColors.mainColor,

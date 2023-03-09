@@ -172,7 +172,7 @@ class CartPage extends StatelessWidget {
                                           children: [
                                             BigText(
                                               text:
-                                              "\$ ${cartController
+                                              "EGP ${cartController
                                                   .getItems[index].price!
                                                   .toString()}",
                                               color: Colors.redAccent,
@@ -382,7 +382,7 @@ class CartPage extends StatelessWidget {
                               SizedBox(
                                 width: Dimensions.width10 / 2,
                               ),
-                              BigText(text: '\$ ' +
+                              BigText(text: 'EGP ' +
                                   cartController.totalAlmount.toString()),
                               SizedBox(
                                 width: Dimensions.width10 / 2,
